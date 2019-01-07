@@ -1,0 +1,26 @@
+# Mac files
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtualenv
+bin/
+include/
+lib/
+pip-selfcheck.json
+
+# Test
+test.py
+
+# Oracle
+cx_Oracle-doc/
+
+# Python
+__pycache__/
