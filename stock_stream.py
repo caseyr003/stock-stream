@@ -29,7 +29,7 @@ def save_price(stock_symbol, ts):
 # Start loading animation on the command line
 spinner.start()
 
-#Continuously read and write sensor readings to database
+#Continuously read and write updated stock prices to database
 while True:
     ts = datetime.datetime.now()
     for stock in stocks:
